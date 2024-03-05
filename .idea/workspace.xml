@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="change h3 to h4 in hero section">
-      <change afterPath="$PROJECT_DIR$/assets/images/css-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/html-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/intellij-idea-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/jasper-studio-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/java-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/mysql-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/scene-builder-logo.webp" afterDir="false" />
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="add about me section">
+      <change afterPath="$PROJECT_DIR$/assets/images/assignment-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/project-icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -35,19 +30,19 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pathumck"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pathumck&quot;
   }
-}]]></component>
+}</component>
   <component name="GitLabMergeRequestsSettings">{}</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pathumck/My-Profile-Portfolio-Webcite.git",
-    "accountId": "b054980a-f553-4022-bc72-b04bbadc0523"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pathumck/My-Profile-Portfolio-Webcite.git&quot;,
+    &quot;accountId&quot;: &quot;b054980a-f553-4022-bc72-b04bbadc0523&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -57,23 +52,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/pathum/IdeaProjects/My-Profile-Portfolio-Webcite/assets/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pathum/IdeaProjects/My-Profile-Portfolio-Webcite/assets/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images" />
@@ -95,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1709523252781</updated>
       <workItem from="1709523253799" duration="1000" />
-      <workItem from="1709523577060" duration="20183000" />
+      <workItem from="1709523577060" duration="24988000" />
+      <workItem from="1709621621690" duration="2664000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -153,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709601649176</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add about me section">
+      <option name="closed" value="true" />
+      <created>1709609510576</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709609510576</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +171,7 @@
     <MESSAGE value="add &lt;nav&gt; tags for navigation" />
     <MESSAGE value="add hero section" />
     <MESSAGE value="change h3 to h4 in hero section" />
-    <option name="LAST_COMMIT_MESSAGE" value="change h3 to h4 in hero section" />
+    <MESSAGE value="add about me section" />
+    <option name="LAST_COMMIT_MESSAGE" value="add about me section" />
   </component>
 </project>
