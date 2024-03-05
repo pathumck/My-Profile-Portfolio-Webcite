@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="add hero section">
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="change h3 to h4 in hero section">
+      <change afterPath="$PROJECT_DIR$/assets/images/css-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/html-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/intellij-idea-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/jasper-studio-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/java-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mysql-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/scene-builder-logo.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -88,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709523252781</updated>
       <workItem from="1709523253799" duration="1000" />
-      <workItem from="1709523577060" duration="15102000" />
+      <workItem from="1709523577060" duration="20183000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -138,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709597960962</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change h3 to h4 in hero section">
+      <option name="closed" value="true" />
+      <created>1709601649176</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709601649176</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +166,7 @@
     <MESSAGE value="create header" />
     <MESSAGE value="add &lt;nav&gt; tags for navigation" />
     <MESSAGE value="add hero section" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hero section" />
+    <MESSAGE value="change h3 to h4 in hero section" />
+    <option name="LAST_COMMIT_MESSAGE" value="change h3 to h4 in hero section" />
   </component>
 </project>
