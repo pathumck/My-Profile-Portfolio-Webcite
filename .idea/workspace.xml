@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="add proceedings section" />
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update proceedings heading">
+      <change afterPath="$PROJECT_DIR$/assets/images/innovesta-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/innovesta-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/innovesta-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/innovesta-4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +93,7 @@
       <updated>1709523252781</updated>
       <workItem from="1709523253799" duration="1000" />
       <workItem from="1709523577060" duration="24988000" />
-      <workItem from="1709621621690" duration="3069000" />
+      <workItem from="1709621621690" duration="5585000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -160,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709625985203</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update proceedings heading">
+      <option name="closed" value="true" />
+      <created>1709626314631</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709626314631</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +191,7 @@
     <MESSAGE value="change h3 to h4 in hero section" />
     <MESSAGE value="add about me section" />
     <MESSAGE value="add proceedings section" />
-    <option name="LAST_COMMIT_MESSAGE" value="add proceedings section" />
+    <MESSAGE value="update proceedings heading" />
+    <option name="LAST_COMMIT_MESSAGE" value="update proceedings heading" />
   </component>
 </project>
