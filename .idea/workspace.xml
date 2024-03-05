@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="add gallery section">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update button type of download cv button">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,7 @@
       <updated>1709523252781</updated>
       <workItem from="1709523253799" duration="1000" />
       <workItem from="1709523577060" duration="24988000" />
-      <workItem from="1709621621690" duration="7384000" />
+      <workItem from="1709621621690" duration="7742000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -179,7 +178,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709629651266</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add contact me section">
+      <option name="closed" value="true" />
+      <created>1709632726268</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709632726268</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update button type of download cv button">
+      <option name="closed" value="true" />
+      <created>1709632848478</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709632848478</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +212,8 @@
     <MESSAGE value="add proceedings section" />
     <MESSAGE value="update proceedings heading" />
     <MESSAGE value="add gallery section" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gallery section" />
+    <MESSAGE value="add contact me section" />
+    <MESSAGE value="update button type of download cv button" />
+    <option name="LAST_COMMIT_MESSAGE" value="update button type of download cv button" />
   </component>
 </project>
