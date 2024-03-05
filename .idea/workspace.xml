@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="create header">
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="add &lt;nav&gt; tags for navigation">
+      <change afterPath="$PROJECT_DIR$/assets/images/figma-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/github-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/large-pro-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linkedin-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/medium-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -88,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709523252781</updated>
       <workItem from="1709523253799" duration="1000" />
-      <workItem from="1709523577060" duration="9176000" />
+      <workItem from="1709523577060" duration="13615000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -122,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709563009744</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add &lt;nav&gt; tags for navigation">
+      <option name="closed" value="true" />
+      <created>1709592699650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709592699650</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +146,7 @@
     <MESSAGE value="change title" />
     <MESSAGE value="add metadata" />
     <MESSAGE value="create header" />
-    <option name="LAST_COMMIT_MESSAGE" value="create header" />
+    <MESSAGE value="add &lt;nav&gt; tags for navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add &lt;nav&gt; tags for navigation" />
   </component>
 </project>
