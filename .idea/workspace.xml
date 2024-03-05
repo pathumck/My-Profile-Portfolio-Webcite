@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update button type of download cv button">
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="add footer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,7 @@
       <updated>1709523252781</updated>
       <workItem from="1709523253799" duration="1000" />
       <workItem from="1709523577060" duration="24988000" />
-      <workItem from="1709621621690" duration="7742000" />
+      <workItem from="1709621621690" duration="8438000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -194,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709632848478</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add footer">
+      <option name="closed" value="true" />
+      <created>1709632993806</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709632993806</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +223,7 @@
     <MESSAGE value="add gallery section" />
     <MESSAGE value="add contact me section" />
     <MESSAGE value="update button type of download cv button" />
-    <option name="LAST_COMMIT_MESSAGE" value="update button type of download cv button" />
+    <MESSAGE value="add footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add footer" />
   </component>
 </project>
