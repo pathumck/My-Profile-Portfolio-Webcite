@@ -8,8 +8,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="assets/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.5.1-web/css/all.min.css">
 
     <title>Pathum Siyambalapitiya</title>
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            color: white;
+            background-image: linear-gradient(#222222,#313131,#505050,#505050,#313131,#222222);
+        }
+
+        nav {
+            background-image: linear-gradient(rgba(34, 34, 34, 0.7), rgba(49, 49, 49, 0.7));
+            height: 80px;
+            width: 100%;
+            position: fixed;
+        }
+
+        nav>h2 {
+            line-height: 80px;
+            padding: 0 100px;
+            font-weight: bold;
+            font-family: Inter;
+        }
+
+        nav>ul {
+            float: right;
+            margin-right: 20px;
+        }
+
+        nav>ul>li {
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+        }
+
+        nav>ul>li>a {
+            color: white;
+            font-size: 17px;
+        }
+
+        .active , a:hover {
+            color: orangered;
+            transition: 0.5s;
+        }
+
+        .checkbtn {
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 80px;
+            margin-right: 40px;
+            cursor: pointer;
+            display: none;
+        }
+
+        #check {
+            display: none;
+        }
+        
+        @media (max-width: 952px) {
+            nav>h2 {
+                padding-left: 50px;
+            }
+
+            nav>ul>li>a {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 858px) {
+            .checkbtn {
+                display: block;
+            }
+
+            nav {
+                background-image: linear-gradient(#222222,#313131);
+            }
+
+            ul {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(#222222,#313131,#505050,#505050,#313131,#222222);
+                top: 80px;
+                left: -100%;
+                text-align: center;
+                transition: all 0.5s;
+            }
+
+            nav>ul>li {
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+            }
+
+            nav>ul>li>a {
+                font-size: 20px;
+            }
+
+            a:hover,a.active {
+                background: none;
+                color: orangered;
+            }
+
+            #check:checked ~ ul {
+                left: 0;
+            }
+        }
+
+    </style>
 </head>
 <body>
 <!--Header-->
@@ -18,12 +135,16 @@
     <nav>
 
         <!--Header Left Side-->
-        <img src="/assets/images/circuler-pro-pic.png" title="profile-pic" alt="profile-pic-logo" width="50">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <!--<img src="/assets/images/circuler-pro-pic.png" title="profile-pic" alt="profile-pic-logo" width="50">
         <h2>Pathum Siyambalapitiya</h2>
-
+-->
         <!--Header Right Side-->
         <ul>
-            <li><a href="#start">Home</a></li>
+            <li><a class="active" href="#start">Home</a></li>
             <li><a href="#aboutme">About me</a></li>
             <li><a href="#proceedings">Proceedings</a></li>
             <li><a href="#gallery">Gallery</a></li>
@@ -321,5 +442,7 @@
 <footer>
     Developed by Pathum Siyambalapitiya
 </footer>
+
+    <script src="assets/fontawesome-free-6.5.1-web/js/all.min.js"></script>
 </body>
 </html>
