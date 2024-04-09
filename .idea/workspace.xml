@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="">
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update hero right structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -101,7 +101,8 @@
       <workItem from="1711176487897" duration="824000" />
       <workItem from="1712035439112" duration="2884000" />
       <workItem from="1712652795667" duration="1409000" />
-      <workItem from="1712654371887" duration="316000" />
+      <workItem from="1712654371887" duration="876000" />
+      <workItem from="1712655670959" duration="8558000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -239,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712569118798</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update hero right structure">
+      <option name="closed" value="true" />
+      <created>1712654746859</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712654746859</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +272,7 @@
     <MESSAGE value="update navigation" />
     <MESSAGE value="add normalize.css" />
     <MESSAGE value="update header structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="update header structure" />
+    <MESSAGE value="update hero right structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="update hero right structure" />
   </component>
 </project>
