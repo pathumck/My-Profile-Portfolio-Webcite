@@ -28,17 +28,32 @@
         }
 
         nav {
-            background-image: linear-gradient(rgba(34, 34, 34, 0.7), rgba(49, 49, 49, 0.7));
+            background-image: linear-gradient(rgba(34, 34, 34, 0.97), rgba(49, 49, 49, 0.97));
             height: 80px;
             width: 100%;
             position: fixed;
         }
 
-        nav>h2 {
-            line-height: 80px;
-            padding: 0 100px;
-            font-weight: bold;
-            font-family: Inter;
+        nav>img {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 10px;
+            margin: auto;
+            right: 95%;
+            padding-right: 10px;
+        }
+
+        nav>h3 {
+            width: fit-content;
+            height: fit-content;
+            font-weight: bolder;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 5%;
+            margin: auto;
+            padding-left: 10px;
         }
 
         nav>ul {
@@ -124,6 +139,18 @@
             #check:checked ~ ul {
                 left: 0;
             }
+
+            nav>h3 {
+                width: fit-content;
+                height: fit-content;
+                font-weight: bolder;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 20%;
+                left: 55px;
+                margin: auto;
+            }
         }
 
     </style>
@@ -139,9 +166,8 @@
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
-        <!--<img src="/assets/images/circuler-pro-pic.png" title="profile-pic" alt="profile-pic-logo" width="50">
-        <h2>Pathum Siyambalapitiya</h2>
--->
+        <img src="/assets/images/circuler-pro-pic.png" title="profile-pic" alt="profile-pic-logo" width="50">
+        <h3>Pathum Siyambalapitiya</h3>
         <!--Header Right Side-->
         <ul>
             <li><a class="active" href="#start">Home</a></li>
