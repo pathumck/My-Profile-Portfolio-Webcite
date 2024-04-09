@@ -14,6 +14,7 @@
 
     <style>
 
+        /*Header css*/
         * {
             padding: 0;
             margin: 0;
@@ -28,10 +29,12 @@
         }
 
         nav {
+            top: 0;
             background-image: linear-gradient(rgba(34, 34, 34, 0.97), rgba(49, 49, 49, 0.97));
             height: 80px;
             width: 100%;
             position: fixed;
+            z-index: 1;
         }
 
         nav>img {
@@ -90,7 +93,48 @@
         #check {
             display: none;
         }
-        
+
+        /*Hero css*/
+        #hero-section {
+            position: absolute;
+            top: 80px;
+            left: 0;
+            width: 100vw;
+            height: calc(100vh - 80px);
+            border: solid 2px chartreuse;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        #hero-main-left {
+            border: 1px solid black;
+            grid-column: 1/3;
+        }
+
+        #hero-main-right {
+            border: 1px solid black;
+            grid-column: 3/4;
+            position: relative;
+        }
+
+        #hero-main-right>picture>img {
+            width: 420px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            position: absolute;
+        }
+
+        @media (max-width: 1270px) {
+            #hero-main-right>picture>img {
+                width: 350px;
+            }
+        }
+
+        /*Header media query*/
         @media (max-width: 952px) {
             nav>h2 {
                 padding-left: 50px;
@@ -99,6 +143,12 @@
             nav>ul>li>a {
                 font-size: 16px;
             }
+
+            #hero-main-right>picture>img {
+                width: 300px;
+            }
+
+
         }
 
         @media (max-width: 858px) {
@@ -153,6 +203,8 @@
             }
         }
 
+
+
     </style>
 </head>
 <body>
@@ -182,9 +234,9 @@
 </header>
 
 <!--Hero Section-->
-<section>
+<section id="hero-section">
     <!--Hero Section Left-->
-    <div>
+    <div id="hero-main-left">
         <!--Left Top-->
         <div>
             <h2 id="start">Hi, I'm Pathum Siyambalapitiya!</h2>
@@ -203,7 +255,7 @@
         <div>
             <!--Left Bootom Left-->
             <div>
-                <h4>Find with me</h4>
+               <h4>Find with me</h4>
                 <a href="https://www.linkedin.com/in/pathum-siyambalapitiya-7716892ab">
                     <input type="image" src="/assets/images/linkedin-logo.png" title="linkedin" alt="linkedin profile" width="30">
                 </a>
@@ -224,7 +276,7 @@
         </div>
     </div>
     <!--Hero Section Right -->
-    <div>
+    <div id="hero-main-right">
         <picture>
             <img src="/assets/images/large-pro-pic.png" title="profile-picture" alt="my-profile-picture">
         </picture>
