@@ -25,7 +25,7 @@
 
         body {
             color: white;
-            background-image: linear-gradient(#222222,#313131,#505050,#505050,#313131,#222222);
+            background-image: linear-gradient(#313131,#505050,#505050,#313131);
         }
 
         nav {
@@ -221,9 +221,96 @@
             position: absolute;
         }
 
+        /*About me css*/
+
+        #aboutme-section {
+            display: block;
+            border: red 2px solid;
+        }
+
+        #aboutme-section>#main {
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+
+        #main>div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #main>div>div {
+            width: 200px;
+            padding: 20px 15px;
+            text-align: center;
+            border: 2px solid yellow;
+            border-radius: 5px;
+            background-image: linear-gradient(rgba(34, 34, 34, 0.4), rgba(49, 49, 49, 0.4));
+        }
+
+        #aboutme-section>div>p {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .main2 {
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .main2>div {
+            display: flex;
+            justify-content: space-between;
+            background-image: linear-gradient(rgba(34, 34, 34, 0.4), rgba(49, 49, 49, 0.4));
+        }
+
+        .main2>div>div {
+            width: 470px;
+            padding: 20px 15px;
+            text-align: center;
+            border: 2px solid yellow;
+            border-radius: 5px;
+            background-image: linear-gradient(rgba(34, 34, 34, 0.4), rgba(49, 49, 49, 0.4));
+        }
+
+        .main2>div>div>div {
+            position: relative;
+            display: block;
+            height: 80px;
+            border: 2px solid green;
+        }
+
+        .main2>div>div>div>img {
+            position: absolute;
+            width: 40px;
+            left: 10%;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .main2>div>div>div>h6 {
+            position: absolute;
+            right: 5%;
+            margin: auto;
+            padding-top: 5px;
+        }
+
+        #aboutme-section>#bottomdiv {
+            text-align: center;
+        }
+
+
+
         @media (max-width: 1270px) {
             #hero-main-right>picture>img {
-                width: 330px;
+                width: 370px;
+            }
+
+
+            #aboutme-section>#main {
+                max-width: 900px;
             }
         }
 
@@ -236,6 +323,11 @@
 
             #hero-main-left>div>div>a>input {
                 width: 25px;
+            }
+
+
+            #aboutme-section>#main {
+                max-width: 750px;
             }
 
         }
@@ -349,6 +441,7 @@
                 padding: 5px;
                 font-size: small;
             }
+
         }
 
         @media (max-width: 650px) {
@@ -487,79 +580,98 @@
 </section>
 
 <!--About Me Section-->
-<section>
+<section id="aboutme-section">
     <div id="aboutme" class="space-div"></div>
     <!--About Me Section Top-->
     <div>
         <h1>ABOUT ME</h1>
-        <p>Currently, I'm immersed in the world of technology as an undergraduate student in GDSE Batch 67
+        <p>" Currently, I'm immersed in the world of technology as an undergraduate student in GDSE Batch 67
             at the Institute of Software Engineering in Panadura, Sri Lanka. Passionate about learning and coding,
-            I'm dedicated to expanding my skills and contributing to the ever-evolving field of software development.</p>
-    </div>
+            I'm dedicated to expanding my skills and contributing to the ever-evolving field of software development. "</p>
+    </div><br>
     <!--About Me Section Mid-->
-    <div>
-        <h3>Educational Background</h3>
-        <!--Left-->
+    <div id="main">
+        <h3>Educational Background</h3><br>
+
         <div>
-            <h4>Ordinary Education</h4>
-            <p>2012 Ordinary level exam<br>St. Sylvester’s College Kandy,<br>Sri Lanka</p>
-        </div>
-        <!--Mid-->
-        <div>
-            <h4>Advanced Education</h4>
-            <p>2015 Advanced level exam<br>St. Sylvester’s College Kandy,<br>Sri Lanka</p>
-        </div>
-        <!--Right-->
-        <div>
-            <h4>Higher Education</h4>
-            <p>2023 to Now Undergraduate<br>student in GDSE 67 at IJSE<br>Panadura, Sri Lanka</p>
-        </div>
-    </div>
-    <!--About Me Section Bottom-->
-    <div>
-        <h3>Skills</h3>
-        <p>One of my greatest strengths is my ability to quickly adapt and learn new technologies.</p>
-            <div>
+
                 <!--Left-->
                 <div>
-                    <div>
-                        <img src="/assets/images/java-logo.png" title="java" alt="java-logo" width="50">
-                        <h4>Java 70%</h4>
-                    </div>
-                    <div>
-                        <img src="/assets/images/scene-builder-logo.webp" title="scene builder" alt="scene-builder-logo" width="50">
-                        <h4>Scene Builder 85%</h4>
-                    </div>
-                    <div>
-                        <img src="/assets/images/mysql-logo.png" title="mysql" alt="mysql-logo" width="50">
-                        <h4>MySQL 75%</h4>
-                    </div>
-                    <div>
-                        <img src="/assets/images/intellij-idea-logo.png" title="intellij idea" alt="intellij-idea-logo" width="50">
-                        <h4>Intellijidea 85%</h4>
-                    </div>
+                    <h4>Ordinary Education</h4>
+                    <p>2012 Ordinary level exam<br>St. Sylvester’s College Kandy,<br>Sri Lanka</p>
+                </div>
+                <!--Mid-->
+                <div>
+                    <h4>Advanced Education</h4>
+                    <p>2015 Advanced level exam<br>St. Sylvester’s College Kandy,<br>Sri Lanka</p>
                 </div>
                 <!--Right-->
                 <div>
-                    <div>
-                        <img src="/assets/images/figma-logo.png" title="figma" alt="figma-logo" width="50">
-                        <h4>Figma 65%</h4>
-                    </div>
-                    <div>
-                        <img src="/assets/images/jasper-studio-logo.png" title="jasper-studio" alt="jasper-studio-logo" width="50">
-                        <h4>Jasper 60%</h4>
-                    </div>
-                    <div>
-                        <img src="/assets/images/html-logo.png" title="html5" alt="html5-logo" width="50">
-                        <h4>HTML5 70%</h4>
-                    </div>
-                    <div>
-                        <img src="/assets/images/css-logo.png" title="css3" alt="css3-logo" width="50">
-                        <h4>CSS3 68%</h4>
-                    </div>
+                    <h4>Higher Education</h4>
+                    <p>2023 to Now Undergraduate<br>student in GDSE 67 at IJSE<br>Panadura, Sri Lanka</p>
+                </div>
+
+            </div>
+
+    </div><br>
+
+    <!--About Me Section Bottom-->
+    <div id="bottomdiv">
+        <h3>Skills</h3><br>
+        <p>" One of my greatest strengths is my ability to quickly adapt and learn new technologies. "</p><br>
+
+        <div class="main2">
+
+            <div>
+                    <!--Left-->
+                <div>
+
+                        <div>
+                            <img src="/assets/images/java-logo.png" title="java" alt="java-logo" width="50">
+                            <h6>Java 70%</h6>
+                        </div>
+                        <div>
+                            <img src="/assets/images/scene-builder-logo.webp" title="scene builder" alt="scene-builder-logo" width="50">
+                            <h6>Scene Builder 85%</h6>
+                        </div>
+                        <div>
+                            <img src="/assets/images/mysql-logo.png" title="mysql" alt="mysql-logo" width="50">
+                            <h6>MySQL 75%</h6>
+                        </div>
+                        <div>
+                            <img src="/assets/images/intellij-idea-logo.png" title="intellij idea" alt="intellij-idea-logo" width="50">
+                            <h6>Intellijidea 85%</h6>
+                        </div>
+                </div>
+
+
+
+
+
+
+                <!--Right-->
+                <div>
+                        <div>
+                            <img src="/assets/images/figma-logo.png" title="figma" alt="figma-logo" width="50">
+                            <h6>Figma 65%</h6>
+                        </div>
+                        <div>
+                            <img src="/assets/images/jasper-studio-logo.png" title="jasper-studio" alt="jasper-studio-logo" width="50">
+                            <h6>Jasper 60%</h6>
+                        </div>
+                        <div>
+                            <img src="/assets/images/html-logo.png" title="html5" alt="html5-logo" width="50">
+                            <h6>HTML5 70%</h6>
+                        </div>
+                        <div>
+                            <img src="/assets/images/css-logo.png" title="css3" alt="css3-logo" width="50">
+                            <h6>CSS3 68%</h6>
+                        </div>
                 </div>
             </div>
+        </div>
     </div>
+
 </section>
 
 <!--Proceedings Section-->

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update hero structure">
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update aboutme navigation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -104,6 +104,9 @@
       <workItem from="1712654371887" duration="876000" />
       <workItem from="1712655670959" duration="15029000" />
       <workItem from="1712840925386" duration="623000" />
+      <workItem from="1712888766669" duration="5427000" />
+      <workItem from="1712894706505" duration="22000" />
+      <workItem from="1712897706791" duration="6303000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -257,7 +260,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712668668009</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="remove hero unwanted css">
+      <option name="closed" value="true" />
+      <created>1712892094353</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712892094353</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update aboutme navigation">
+      <option name="closed" value="true" />
+      <created>1712893695771</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712893695771</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +302,8 @@
     <MESSAGE value="update header structure" />
     <MESSAGE value="update hero right structure" />
     <MESSAGE value="update hero structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="update hero structure" />
+    <MESSAGE value="remove hero unwanted css" />
+    <MESSAGE value="update aboutme navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="update aboutme navigation" />
   </component>
 </project>
