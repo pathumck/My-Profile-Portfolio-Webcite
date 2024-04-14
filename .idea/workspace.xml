@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update aboutme navigation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="make basic element positions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,6 +104,7 @@
       <workItem from="1712888766669" duration="5427000" />
       <workItem from="1712894706505" duration="22000" />
       <workItem from="1712897706791" duration="6303000" />
+      <workItem from="1712931154483" duration="12202000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -276,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712893695771</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="make basic element positions">
+      <option name="closed" value="true" />
+      <created>1712952867843</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1712952867843</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +310,7 @@
     <MESSAGE value="update hero structure" />
     <MESSAGE value="remove hero unwanted css" />
     <MESSAGE value="update aboutme navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="update aboutme navigation" />
+    <MESSAGE value="make basic element positions" />
+    <option name="LAST_COMMIT_MESSAGE" value="make basic element positions" />
   </component>
 </project>
