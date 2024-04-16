@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="make basic element positions" />
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="set responsive">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +108,12 @@
       <workItem from="1712894706505" duration="22000" />
       <workItem from="1712897706791" duration="6303000" />
       <workItem from="1712931154483" duration="12202000" />
+      <workItem from="1713109694204" duration="7620000" />
+      <workItem from="1713125134360" duration="2078000" />
+      <workItem from="1713167383424" duration="2637000" />
+      <workItem from="1713207108406" duration="85000" />
+      <workItem from="1713244216541" duration="313000" />
+      <workItem from="1713245708683" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -282,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712952867843</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="set responsive">
+      <option name="closed" value="true" />
+      <created>1713124141463</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713124141463</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +328,7 @@
     <MESSAGE value="remove hero unwanted css" />
     <MESSAGE value="update aboutme navigation" />
     <MESSAGE value="make basic element positions" />
-    <option name="LAST_COMMIT_MESSAGE" value="make basic element positions" />
+    <MESSAGE value="set responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="set responsive" />
   </component>
 </project>
