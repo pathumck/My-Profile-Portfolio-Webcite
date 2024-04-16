@@ -319,7 +319,53 @@
             padding-left: 40px;
         }
 
-        #proceedings-section>.main3
+        .main3 {
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .main3>div {
+            display: flex;
+            justify-content: space-between;
+            background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(49, 49, 49, 0.6));
+            border-radius: 10px;
+        }
+
+        .main3>div>div>div {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            width: 470px;
+            padding: 20px 15px;
+            text-align: center;
+            /*border: 2px solid yellow;*/
+            /*background-image: linear-gradient(rgba(34, 34, 34, 0.4), rgba(49, 49, 49, 0.4));*/
+        }
+
+        .main3>div>div>div>div {
+            position: relative;
+            display: block;
+            width: 120px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            aspect-ratio: 1/1;
+            border-radius: 10px;
+            /*border: 2px solid green;*/
+            background-image: linear-gradient(rgba(34, 34, 34, 0.9), rgba(49, 49, 49, 0.9));
+        }
+
+        .main3>div>div>div>div>a>input {
+            margin: auto;
+            padding-top: 20px;
+        }
+
+        #proceedings-section>div>div>div>h4 {
+            padding-top: 20px;
+        }
+
+
 
 
         @media (max-width: 1270px) {
@@ -745,6 +791,7 @@
                 <div>
                     <h4>Assignments</h4>
                     <div>
+                    <div>
                         <a href="https://github.com/pathumck/Course-Work-Layered-Architecture.git">
                             <input type="image" src="/assets/images/assignment-icon.png" title="assignment-1" alt="assignment-icon" width="50">
                         </a>
@@ -792,6 +839,7 @@
                         </a>
                         <h5>Assignment-8</h5>
                     </div>
+                    </div>
 
 
                 </div>
@@ -799,6 +847,8 @@
                 <!--Projects - Right Side-->
                 <div>
                     <h4>Projects</h4>
+
+                    <div>
                     <div>
                         <a href="https://github.com/pathumck/Play-Tech-Chat-Application.git">
                             <input type="image" src="/assets/images/project-icon.png" title="project-1" alt="project-icon" width="50">
@@ -846,6 +896,7 @@
                             <input type="image" src="/assets/images/project-icon.png" title="project-4" alt="project-icon" width="50">
                         </a>
                         <h5>Project-8</h5>
+                    </div>
                     </div>
 
                 </div>
