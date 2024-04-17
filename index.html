@@ -34,7 +34,7 @@
             height: 80px;
             width: 100%;
             position: fixed;
-            z-index: 1;
+            z-index: 2;
         }
 
         nav>img {
@@ -436,7 +436,7 @@
             height: 100%;
             position: absolute;
             width: 5%;
-            z-index: 2;
+            z-index: 1;
         }
 
         .slider::before {
@@ -450,8 +450,12 @@
             transform: rotateZ(180deg);
         }
 
-
-
+        /*Contact me css*/
+        #contactme-section>h1 {
+            margin-top: 0;
+            text-align: right;
+            padding-right: 20px;
+        }
 
         @media (max-width: 1270px) {
             #hero-main-right>picture>img {
@@ -1134,8 +1138,9 @@
 </section>
 
 <!--Contact Me Section-->
-<section>
-    <h1 id="contactme">CONTACT ME</h1>
+<section id="contactme-section">
+    <div id="contactme" class="space-div"></div>
+    <h1>CONTACT ME</h1>
     <!--Contact Me Left-->
     <div>
         <!--Top-->
