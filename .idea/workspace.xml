@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="set responsive" />
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="set h4 margin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,6 +114,7 @@
       <workItem from="1713287345801" duration="21444000" />
       <workItem from="1713362232209" duration="12728000" />
       <workItem from="1713422837035" duration="7090000" />
+      <workItem from="1713448322827" duration="4039000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -411,15 +412,37 @@
       <option name="project" value="LOCAL" />
       <updated>1713429318370</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="set h1 responsive">
+      <option name="closed" value="true" />
+      <created>1713451625020</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1713451625020</updated>
+    </task>
+    <task id="LOCAL-00039" summary="set h4 margin">
+      <option name="closed" value="true" />
+      <created>1713452146065</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1713452146065</updated>
+    </task>
+    <task id="LOCAL-00040" summary="set h4 margin">
+      <option name="closed" value="true" />
+      <created>1713452160470</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1713452160470</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update proceedings heading" />
-    <MESSAGE value="add gallery section" />
     <MESSAGE value="add contact me section" />
     <MESSAGE value="update button type of download cv button" />
     <MESSAGE value="add footer" />
@@ -443,6 +466,8 @@
     <MESSAGE value="update background transparency" />
     <MESSAGE value="update button cursor" />
     <MESSAGE value="set responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="set responsive" />
+    <MESSAGE value="set h1 responsive" />
+    <MESSAGE value="set h4 margin" />
+    <option name="LAST_COMMIT_MESSAGE" value="set h4 margin" />
   </component>
 </project>
