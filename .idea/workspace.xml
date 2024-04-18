@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="set responsive">
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update z-index values">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -114,6 +114,8 @@
       <workItem from="1713207108406" duration="85000" />
       <workItem from="1713244216541" duration="313000" />
       <workItem from="1713245708683" duration="678000" />
+      <workItem from="1713287345801" duration="21444000" />
+      <workItem from="1713362232209" duration="12728000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -299,17 +301,77 @@
       <option name="project" value="LOCAL" />
       <updated>1713124141463</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="change assignment-icon.png">
+      <option name="closed" value="true" />
+      <created>1713303028691</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1713303028691</updated>
+    </task>
+    <task id="LOCAL-00025" summary="set responsive">
+      <option name="closed" value="true" />
+      <created>1713308657283</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713308657283</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update ids">
+      <option name="closed" value="true" />
+      <created>1713311621959</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713311621959</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update ids">
+      <option name="closed" value="true" />
+      <created>1713311652924</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1713311652924</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update top basic css">
+      <option name="closed" value="true" />
+      <created>1713315080866</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1713315080866</updated>
+    </task>
+    <task id="LOCAL-00029" summary="set activities keyframe">
+      <option name="closed" value="true" />
+      <created>1713335274733</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713335274733</updated>
+    </task>
+    <task id="LOCAL-00030" summary="set leisure keyframe">
+      <option name="closed" value="true" />
+      <created>1713337843895</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1713337843900</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update z-index values">
+      <option name="closed" value="true" />
+      <created>1713339303588</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1713339303588</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create index.html" />
-    <MESSAGE value="change title" />
-    <MESSAGE value="add metadata" />
-    <MESSAGE value="create header" />
     <MESSAGE value="add &lt;nav&gt; tags for navigation" />
     <MESSAGE value="add hero section" />
     <MESSAGE value="change h3 to h4 in hero section" />
@@ -328,7 +390,13 @@
     <MESSAGE value="remove hero unwanted css" />
     <MESSAGE value="update aboutme navigation" />
     <MESSAGE value="make basic element positions" />
+    <MESSAGE value="change assignment-icon.png" />
     <MESSAGE value="set responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="set responsive" />
+    <MESSAGE value="update ids" />
+    <MESSAGE value="update top basic css" />
+    <MESSAGE value="set activities keyframe" />
+    <MESSAGE value="set leisure keyframe" />
+    <MESSAGE value="update z-index values" />
+    <option name="LAST_COMMIT_MESSAGE" value="update z-index values" />
   </component>
 </project>
