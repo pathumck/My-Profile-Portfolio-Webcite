@@ -230,13 +230,16 @@
         }
 
         #hero-main-right>picture>img {
-            width: 420px;
+            width: 380px;
             top: 0;
             bottom: 0;
             right: 0;
             left: 0;
             margin: auto;
             position: absolute;
+            box-shadow: 0 10px 10px 5px rgba(241,196,15,0.8);
+            animation: animate 5s ease-in-out infinite;
+            transition: all 1s ease-in-out;
         }
 
         /*About me css*/
@@ -603,11 +606,29 @@
 
         }
 
+        @media (max-width: 1125px) {
+            #hero-main-right>picture>img {
+                width: 315px;
+            }
+        }
+
+        @media (max-width: 1055px) {
+            #hero-main-right>picture>img {
+                width: 290px;
+            }
+        }
+
+        @media (max-width: 970px) {
+            #hero-main-right>picture>img {
+                width: 265px;
+            }
+        }
+
         /*Header media query*/
         @media (max-width: 952px) {
 
             #hero-main-right>picture>img {
-                width: 280px;
+                width: 260px;
             }
 
             #hero-main-left>div>div>a>input {
@@ -697,7 +718,7 @@
             }
 
             #hero-main-right>picture>img {
-                width: 170px;
+                width: 150px;
             }
 
             #hero-main-left>div:first-child>h2 {
@@ -901,6 +922,20 @@
 
             100% {
                 transform: translateX(calc(-250px *3.5));
+            }
+        }
+
+        @keyframes animate {
+            0% {
+               border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+            }
+
+            50% {
+                border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+            }
+
+            100% {
+                border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
             }
         }
 
