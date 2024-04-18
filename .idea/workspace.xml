@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update z-index values">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="set responsive" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +113,7 @@
       <workItem from="1713245708683" duration="678000" />
       <workItem from="1713287345801" duration="21444000" />
       <workItem from="1713362232209" duration="12728000" />
+      <workItem from="1713422837035" duration="7090000" />
     </task>
     <task id="LOCAL-00001" summary="create index.html">
       <option name="closed" value="true" />
@@ -365,18 +363,61 @@
       <option name="project" value="LOCAL" />
       <updated>1713339303588</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="set basic positions">
+      <option name="closed" value="true" />
+      <created>1713424518396</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1713424518396</updated>
+    </task>
+    <task id="LOCAL-00033" summary="set footer">
+      <option name="closed" value="true" />
+      <created>1713424562384</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1713424562384</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update height">
+      <option name="closed" value="true" />
+      <created>1713425174689</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1713425174689</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update background transparency">
+      <option name="closed" value="true" />
+      <created>1713426062567</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1713426062567</updated>
+    </task>
+    <task id="LOCAL-00036" summary="update button cursor">
+      <option name="closed" value="true" />
+      <created>1713428016171</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1713428016171</updated>
+    </task>
+    <task id="LOCAL-00037" summary="set responsive">
+      <option name="closed" value="true" />
+      <created>1713429318370</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1713429318370</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add &lt;nav&gt; tags for navigation" />
-    <MESSAGE value="add hero section" />
-    <MESSAGE value="change h3 to h4 in hero section" />
-    <MESSAGE value="add about me section" />
-    <MESSAGE value="add proceedings section" />
     <MESSAGE value="update proceedings heading" />
     <MESSAGE value="add gallery section" />
     <MESSAGE value="add contact me section" />
@@ -391,12 +432,17 @@
     <MESSAGE value="update aboutme navigation" />
     <MESSAGE value="make basic element positions" />
     <MESSAGE value="change assignment-icon.png" />
-    <MESSAGE value="set responsive" />
     <MESSAGE value="update ids" />
     <MESSAGE value="update top basic css" />
     <MESSAGE value="set activities keyframe" />
     <MESSAGE value="set leisure keyframe" />
     <MESSAGE value="update z-index values" />
-    <option name="LAST_COMMIT_MESSAGE" value="update z-index values" />
+    <MESSAGE value="set basic positions" />
+    <MESSAGE value="set footer" />
+    <MESSAGE value="update height" />
+    <MESSAGE value="update background transparency" />
+    <MESSAGE value="update button cursor" />
+    <MESSAGE value="set responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="set responsive" />
   </component>
 </project>
