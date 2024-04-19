@@ -37,6 +37,10 @@
             box-sizing: border-box;
         }
 
+        .sub-topic-color {
+            color: #dd133c;
+        }
+
         nav {
             top: 0;
             background-image: linear-gradient(rgba(34, 34, 34, 0.97), rgba(49, 49, 49, 0.97));
@@ -408,7 +412,7 @@
             display: grid;
             grid-template-columns: repeat(3,1fr);
             width: 470px;
-            padding: 20px 15px;
+            padding: 15px 15px;
             text-align: center;
             /*border: 2px solid yellow;*/
             /*background-image: linear-gradient(rgba(34, 34, 34, 0.4), rgba(49, 49, 49, 0.4));*/
@@ -437,7 +441,7 @@
             padding-top: 20px;
         }
 
-        #proceedings-section>div>div>div>h4 {
+        #proceedings-section>div>div>div>h3 {
             padding-top: 20px;
         }
 
@@ -448,11 +452,11 @@
             padding-left: 20px;
         }
 
-        #gallery-section>div>h4 {
+        #gallery-section>div>h3:first-child {
             padding-left: 100px;
         }
 
-        #gallery-section>div>h3 {
+        #gallery-section>div>h3:nth-child(3) {
             padding-left: 50px;
         }
 
@@ -854,18 +858,15 @@
             }
 
             .main3>div>div>div {
-                padding: 0;
                 margin: auto;
                 width: 95%;
+                padding-bottom: 30px;
             }
 
             #proceedings-section>div>div>div>h4 {
                 padding-top: 5px;
                 padding-bottom: 5px;
             }
-
-
-
 
             #contactme-section>#main4 {
                 display: block;
@@ -1077,7 +1078,7 @@
     </div><br>
     <!--About Me Section Mid-->
     <div id="main">
-        <h3>Educational Background</h3><br>
+        <h3 class="sub-topic-color">Educational Background</h3><br>
 
         <div>
 
@@ -1103,7 +1104,7 @@
 
     <!--About Me Section Bottom-->
     <div id="bottomdiv">
-        <h3>Skills</h3><br>
+        <h3 class="sub-topic-color">Skills</h3><br>
         <p>" One of my greatest strengths is my ability to quickly adapt and learn new technologies. "</p><br>
 
         <div class="main2">
@@ -1197,7 +1198,7 @@
             <div>
                 <!--Assignments - Left Side-->
                 <div>
-                    <h4>Assignments</h4>
+                    <h3 class="sub-topic-color">Assignments</h3>
                     <div>
                     <div>
                         <a href="https://github.com/pathumck/Course-Work-Layered-Architecture.git">
@@ -1254,7 +1255,7 @@
 
                 <!--Projects - Right Side-->
                 <div>
-                    <h4>Projects</h4>
+                    <h3 class="sub-topic-color">Projects</h3>
 
                     <div>
                     <div>
@@ -1321,7 +1322,7 @@
     <h1>GALLERY</h1>
     <!--Activities Section-->
     <div>
-        <h4>Activities</h4><br>
+        <h3 class="sub-topic-color">Activities</h3><br>
         <h3>1. INNOVESTA '23</h3><br>
         <p>I am pleased to highlight my active participation in Innovesta 23,
             a prestigious software innovation competition organized by the Institute of Software Engineering in Panadura, Sri Lanka.
@@ -1363,7 +1364,7 @@
     </div><br>
     <!--Leisure Section-->
     <div>
-        <h4>Leisure</h4><br>
+        <h3 class="sub-topic-color">Leisure</h3><br>
         <h3>1. PEACOCK HILLS HIKE</h3><br>
         <p>Peacock Hill is a mountain which is situated near the Pussellawa town in the central highlands
             of Sri Lanka. It stands at a height of approximately 1518 m and provides an amazing view of
