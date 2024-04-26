@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="remove font-awesome">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,14 +119,6 @@
       <workItem from="1713730497452" duration="3536000" />
       <workItem from="1713735291265" duration="2173000" />
       <workItem from="1713740315600" duration="1050000" />
-    </task>
-    <task id="LOCAL-00005" summary="add &lt;nav&gt; tags for navigation">
-      <option name="closed" value="true" />
-      <created>1709592699650</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1709592699650</updated>
     </task>
     <task id="LOCAL-00006" summary="add hero section">
       <option name="closed" value="true" />
@@ -512,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714130792238</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="remove font-awesome">
+      <option name="closed" value="true" />
+      <created>1714139236534</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1714139236534</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update ids" />
     <MESSAGE value="update top basic css" />
     <MESSAGE value="set activities keyframe" />
     <MESSAGE value="set leisure keyframe" />
@@ -555,6 +554,7 @@
     <MESSAGE value="update slider image count" />
     <MESSAGE value="update color" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="remove font-awesome" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove font-awesome" />
   </component>
 </project>
