@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update color" />
+    <list default="true" id="57c63b4c-b0fa-437b-86c4-d65e5ccd670c" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,14 +119,6 @@
       <workItem from="1713730497452" duration="3536000" />
       <workItem from="1713735291265" duration="2173000" />
       <workItem from="1713740315600" duration="1050000" />
-    </task>
-    <task id="LOCAL-00004" summary="create header">
-      <option name="closed" value="true" />
-      <created>1709563009744</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709563009744</updated>
     </task>
     <task id="LOCAL-00005" summary="add &lt;nav&gt; tags for navigation">
       <option name="closed" value="true" />
@@ -510,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713570403782</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update">
+      <option name="closed" value="true" />
+      <created>1714130792238</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1714130792238</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change assignment-icon.png" />
     <MESSAGE value="update ids" />
     <MESSAGE value="update top basic css" />
     <MESSAGE value="set activities keyframe" />
@@ -553,6 +554,7 @@
     <MESSAGE value="set animation for profile picture" />
     <MESSAGE value="update slider image count" />
     <MESSAGE value="update color" />
-    <option name="LAST_COMMIT_MESSAGE" value="update color" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
