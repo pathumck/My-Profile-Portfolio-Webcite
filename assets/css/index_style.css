@@ -91,7 +91,7 @@ nav>ul>li>a {
     color: white;
     float: right;
     line-height: 80px;
-    margin-right: 40px;
+    margin-right: 5%;
     cursor: pointer;
     display: none;
 }
@@ -695,7 +695,19 @@ footer {
 
 @media (max-width: 860px) {
     .checkbtn {
-        display: block;
+        display: inline;
+    }
+
+    #cancel {
+        display: none;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+    
+    #check:checked ~ label #cancel {
+        display: inline;
     }
 
     nav {
