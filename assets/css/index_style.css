@@ -18,6 +18,15 @@ h1 {
     margin-bottom: 21.44px;
 }
 
+.image-container {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover {
+    transform: scale(1.5);
+}
+
 /*Header css*/
 * {
     padding: 0;
