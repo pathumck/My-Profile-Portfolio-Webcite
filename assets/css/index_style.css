@@ -1,3 +1,11 @@
+::-webkit-scrollbar {
+    background: #505050;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff6348;
+}
+
 body {
     color: white;
     background-image: linear-gradient(#313131,#505050,#505050,#313131);
