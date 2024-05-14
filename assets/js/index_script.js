@@ -1,35 +1,18 @@
-document.querySelector("nav>ul>li>a[href='#start']").addEventListener("click",function(event){
-    document.querySelectorAll("nav>ul>li>a").forEach(function(link) {
-        link.classList.remove("active");
-    });
+let sections = document.querySelectorAll('section>div:first-child');
+let navLinks = document.querySelectorAll('header nav ul li a');
 
-    this.classList.add("active");
-});
-
-document.querySelector("nav>ul>li>a[href='#aboutme']").addEventListener("click",function(event){
-    document.querySelectorAll("nav>ul>li>a").forEach(function(link) {
-        link.classList.remove("active");
+window.onscroll = () => {
+    sections.forEach(sec => {
+       let top = window.scrollY;
+       let offset = sec.offsetTop;
+       let height = sec.offsetHeight;
+       let id = sec.getAttribute('id');
+       
+       if(top * 1.1 >= offset && top < offset + height) {
+            navLinks.forEach(links => {
+                links.classList.remove('active');
+                document.querySelector('header nav ul li a[href*=' + id + ']').classList.add('active');
+            });
+       };
     });
-    this.classList.add("active");
-});
-
-document.querySelector("nav>ul>li>a[href='#proceedings']").addEventListener("click",function(event){
-    document.querySelectorAll("nav>ul>li>a").forEach(function(link) {
-        link.classList.remove("active");
-    });
-    this.classList.add("active");
-});
-
-document.querySelector("nav>ul>li>a[href='#gallery']").addEventListener("click",function(event){
-    document.querySelectorAll("nav>ul>li>a").forEach(function(link) {
-        link.classList.remove("active");
-    });
-    this.classList.add("active");
-});
-
-document.querySelector("nav>ul>li>a[href='#contactme']").addEventListener("click",function(event){
-    document.querySelectorAll("nav>ul>li>a").forEach(function(link) {
-        link.classList.remove("active");
-    });
-    this.classList.add("active");
-});
+};
