@@ -129,15 +129,15 @@ nav>ul>li>a {
 }
 
 #hero-main-left {
-    /*border: 1px solid black;*/
+    /* border: 1px solid black; */
     grid-column: 1/3;
     display: block;
-    height: 500px;
+    height: calc(100vh - 80px);
     width: 100%;
 }
 
 #hero-main-left>div {
-    /*border: white solid 2px;*/
+    /* border: white solid 2px; */
     width: 100%;
     position: relative;
     align-items: center;
@@ -219,7 +219,7 @@ nav>ul>li>a {
 }
 
 #hero-main-left>div>div>a {
-    padding: 15px;
+    padding: 0px 20px 0px 20px;
 }
 
 #hero-main-left>div>div>a>input {
@@ -769,14 +769,14 @@ footer {
         left: 0;
         right: 0;
         bottom: 0;
-        height: 200px;
+        height: calc((100vh - 80px)/5 * 2);
     }
 
     #hero-main-left {
         /*border: 8px solid deepskyblue;*/
-        height: 300px;
+        height: calc((100vh - 80px)/5 * 3);
         position: absolute;
-        top: 280px;
+        top: calc((100vh - 80px)/5 * 2 + 80px);
         left: 0;
         right: 0;
         bottom: 0;
