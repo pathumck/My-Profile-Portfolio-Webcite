@@ -128,6 +128,37 @@ nav>ul>li>a {
     height: 80px;
 }
 
+#sub-topics {
+    animation: move 3s linear infinite;
+    color: #f1c40fcc;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+    10% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    70% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    75% {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+  
+    100% {
+        opacity: 0;
+    }
+}
+
 #hero-main-left {
     /* border: 1px solid black; */
     grid-column: 1/3;

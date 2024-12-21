@@ -16,3 +16,18 @@ window.onscroll = () => {
        };
     });
 };
+
+let textArrayElement = 0;
+
+function changeText() {
+  const texts = ["A Software Engineering Student.", "A Web Developer.", "A Designer."];
+  if (textArrayElement == texts.length) {
+    textArrayElement = 1;
+    document.getElementById("sub-topics").innerHTML = texts[0];
+  } else {
+    document.getElementById("sub-topics").innerHTML = texts[textArrayElement];
+    textArrayElement++;
+  }
+}
+
+setInterval(changeText, 3000);
