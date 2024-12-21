@@ -581,6 +581,7 @@ nav>ul>li>a {
     left: 15%;
     border-radius: 5px;
     width: 70%;
+    height: 30px;
     background: linear-gradient(rgba(34, 34, 34, 0.4), rgba(49, 49, 49, 0.4));
     color: white;
     border: 1px solid grey;
@@ -616,7 +617,7 @@ nav>ul>li>a {
     left: 45%;
     width: 50px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: black;
     border: none;
     height: 25px;
@@ -783,7 +784,7 @@ footer {
     }
 
     #hero-main-right>picture>img {
-        width: 45%;
+        width: 180px;
     }
 
     #hero-main-left>div:first-child>h2 {

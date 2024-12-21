@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/fontawesome-free-6.5.1-web/css/all.min.css">
     <link rel="stylesheet" href="assets/css/index_style.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Pathum Siyambalapitiya</title>
 
 </head>
@@ -102,14 +104,14 @@
 <section id="aboutme-section">
     <div id="aboutme" class="space-div"></div>
     <!--About Me Section Top-->
-    <div>
+    <div data-aos="fade-up" data-aos-duration="1000">
         <h1>ABOUT ME</h1>
         <p>" Currently, I'm immersed in the world of technology as an undergraduate student in GDSE Batch 67
             at the Institute of Software Engineering in Panadura, Sri Lanka. Passionate about learning and coding,
             I'm dedicated to expanding my skills and contributing to the ever-evolving field of software development. "</p>
     </div><br>
     <!--About Me Section Mid-->
-    <div id="main">
+    <div id="main" data-aos="fade-up" data-aos-duration="1000">
         <h3 class="sub-topic-color">Educational Background</h3><br>
 
         <div>
@@ -135,7 +137,7 @@
     </div><br>
 
     <!--About Me Section Bottom-->
-    <div id="bottomdiv">
+    <div id="bottomdiv" data-aos="fade-up" data-aos-duration="1000">
         <h3 class="sub-topic-color">Skills</h3><br>
         <p>" One of my greatest strengths is my ability to quickly adapt and learn new technologies. "</p><br>
 
@@ -216,8 +218,8 @@
 <section id="proceedings-section">
 
         <div id="proceedings" class="space-div"></div>
-        <h1>PROCEEDINGS</h1>
-        <p>" In my academic pursuits, I've demonstrated expertise in Java 11, JavaFX, Scene Builder,
+        <h1 data-aos="fade-up" data-aos-duration="1000">PROCEEDINGS</h1>
+        <p data-aos="fade-up" data-aos-duration="1000">" In my academic pursuits, I've demonstrated expertise in Java 11, JavaFX, Scene Builder,
             IntelliJ, and MySQL through various assignments and projects.
             This includes developing a sophisticated console application, crafting dynamic JavaFX GUI
             applications using Scene Builder, and creating an Point of Sales Management System that
@@ -225,7 +227,7 @@
             user-friendly solutions. "</p><br>
 
     <!--Proceedings Section Bottom-->
-        <div class="main3">
+        <div class="main3" data-aos="fade-up" data-aos-duration="1000">
 
             <div>
                 <!--Assignments - Left Side-->
@@ -351,9 +353,9 @@
 <!--Gallery Section-->
 <section id="gallery-section">
     <div id="gallery" class="space-div"></div>
-    <h1>GALLERY</h1>
+    <h1 data-aos="fade-up" data-aos-duration="1000">GALLERY</h1>
     <!--Activities Section-->
-    <div>
+    <div data-aos="fade-up" data-aos-duration="1000">
         <h3 class="sub-topic-color">Activities</h3><br>
         <h3>1. INNOVESTA '23</h3><br>
         <p>I am pleased to highlight my active participation in Innovesta 23,
@@ -426,7 +428,7 @@
         </div>
     </div><br>
     <!--Leisure Section-->
-    <div>
+    <div data-aos="fade-up" data-aos-duration="1000">
         <h3 class="sub-topic-color">Leisure</h3><br>
         <h3>1. PEACOCK HILLS HIKE</h3><br>
         <p>Peacock Hill is a mountain which is situated near the Pussellawa town in the central highlands
@@ -501,10 +503,10 @@
 <!--Contact Me Section-->
 <section id="contactme-section">
     <div id="contactme" class="space-div"></div>
-    <h1>CONTACT ME</h1>
+    <h1 data-aos="fade-up" data-aos-duration="1000">CONTACT ME</h1>
     <!--Contact Me Left-->
 
-    <div id="main4">
+    <div id="main4" data-aos="fade-up" data-aos-duration="1000">
         <div>
             <!--Top-->
             <div>
@@ -548,11 +550,15 @@
 </section>
 
 <!--Footer-->
-<footer>
+<footer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
     Developed by Pathum Siyambalapitiya
 </footer>
 
     <script src="/assets/fontawesome-free-6.5.2-web/js/all.min.js"></script>
     <script src="assets/js/index_script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
