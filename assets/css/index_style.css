@@ -9,7 +9,7 @@
 body {
     color: white;
     background-image: linear-gradient(#313131,#505050,#505050,#313131);
-    font-family: "Rasa SemiBold";
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
